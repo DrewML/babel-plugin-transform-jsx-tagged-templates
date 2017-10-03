@@ -1,0 +1,39 @@
+{
+  "name": "babel-plugin-transform-jsx-tagged-templates",
+  "version": "1.0.0",
+  "description": "Author HTML in JSX, and compile it to tagged template literals for hyperHTML/lit-html",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier *.js --write",
+    "test": "jest -i && prettier-check *.js",
+    "test:watch": "jest --watch --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewML/babel-plugin-transform-jsx-tagged-templates.git"
+  },
+  "keywords": [
+    "babel",
+    "jsx",
+    "hyperhtml",
+    "lithtml"
+  ],
+  "author": "Andrew Levine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrewML/babel-plugin-transform-jsx-tagged-templates/issues"
+  },
+  "homepage": "https://github.com/DrewML/babel-plugin-transform-jsx-tagged-templates#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "jest": "^21.2.1",
+    "prettier": "^1.7.3",
+    "prettier-check": "^2.0.0"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/test.js"
+    ]
+  }
+}

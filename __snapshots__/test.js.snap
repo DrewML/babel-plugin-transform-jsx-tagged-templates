@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`2 props, 1 dynamic 1 static, dynamic first 1`] = `"html\`<div id=\${1} b=\\"a\\"></div>\`;"`;
+
+exports[`JSXText child 1`] = `"html\`<div>foo</div>\`;"`;
+
+exports[`dynamic attr 1`] = `"html\`<div id=\${1}></div>\`;"`;
+
+exports[`nested self-closing 1`] = `"html\`<div><span></span></div>\`;"`;
+
+exports[`single self-closing 1`] = `"html\`<div></div>\`;"`;
